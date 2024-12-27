@@ -31,3 +31,23 @@ table.center {
     font-style: italic;
 
 }
+.emptycircle{
+    list-style-type: circle;
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+.navbar li{
+    float: left;
+    padding: 10px;
+    background-color: white;
+    text-decoration:  dotted;
+
+    
+}
+.navbar li a:hover{
+    background-color:coral ;
+}
